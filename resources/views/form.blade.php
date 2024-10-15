@@ -12,7 +12,7 @@
     <div class="card">
         
         <div class="card-body">
-            <form name="add-blog-post" id="add-blog-post" method="post" action="">
+            <form name="add-blog-post" id="add-blog-post" method="post" action="{{url('store_form')}}">
                 @csrf
                 <div class="form-group">
                     <label for="username">Name</label>
